@@ -2,6 +2,19 @@
 
 /* Estilos d carrusel */
 imag{
-    height: 700px;
-    width: 1080px;
+    height: 100%;
+    width: 100%;
 }
+
+#ContenedorCarrusel{
+    width:70%;
+    height: auto;
+}
+
+
+/* Fin estilos de Carrusel */
+
+/* Estilos de acordion */
+ 
+
+
