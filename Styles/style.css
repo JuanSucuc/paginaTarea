@@ -2,13 +2,13 @@
 
 /* Estilos d carrusel */
 imag{
-    height: 100%;
-    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
 }
 
-#ContenedorCarrusel{
-    width:70%;
-    height: auto;
+.container{
+    padding: 10px;
+    margin: 10px;
 }
 
 
