@@ -1,3 +1,9 @@
+/* estilos Generales */
+.container{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
 
 /* Estilos de la barra de navegacion */
 
@@ -13,19 +19,7 @@
 
 
 /* Estilos d carrusel */
-#Inico{
- margin-top: 5%;
-}
 
-imag{
-    max-width: 500px;
-    max-height: 500px;
-}
-
-.container{
-    padding: 10px;
-    margin: 10px;
-}
 
 
 /* Fin estilos de Carrusel */
