@@ -1,6 +1,22 @@
 
+/* Estilos de la barra de navegacion */
+
+#Navbar{
+    border-radius: 20px;
+    max-width: 100vw;
+    
+}
+
+
+
+/* fin de estilos de barra de navegacion */
+
 
 /* Estilos d carrusel */
+#Inico{
+ margin-top: 5%;
+}
+
 imag{
     max-width: 500px;
     max-height: 500px;

@@ -18,26 +18,23 @@
 <body>
 
   <!-- Inicio de navbar -->
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top" id="Navbar">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#Inico">Inicio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#Nazaret">Nazaret</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#Letras">Letras</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#Integrantes">Integrantes</a>
           </li>
         </ul>
       </div>
@@ -49,7 +46,7 @@
 
 
   <!-- Inico de Carrusel -->
-  <div id="ContenedorCarrusel" class="container">
+  <header id="Inico" class="container">
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -79,14 +76,14 @@
       </button>
     </div>
 
-  </div>
+  </header>
   <!-- fin de carrusel -->
 
 
   <!-- Iniacio de Acordion-->
-  <div class="container">
+  <main class="container">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-8">
+      <div class="col-12 col-md-6 col-lg-8" id="Nazaret">
           <!-- Titulo  -->
 
   <h1 class="text-center">Nazaret - Love Hurts</h1>
@@ -104,10 +101,10 @@
   
       </div>
   
-      <div class="col-12 col-md-6 col-lg-4">
+      <aside class="col-12 col-md-6 col-lg-4" id="Letras">
         <h1>Letras</h1>
       
-        <div class="accordion" id="accordionExample">
+        <div class="accordion text-center" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -216,18 +213,18 @@
       
         <!--Fin de Acordion-->
         
-        </div>
+        </aside>
     </div>
 
 
 
-</div>
+</main>
 
 
 
   <!-- Inico de tabla -->
 
-  <table class="table text-center table-hover table-bordered">
+  <table class="table text-center table-hover table-bordered" id="Integrantes">
     <thead>
       <tr class="bg-success">
         <th colspan="3">Miembros</th>
