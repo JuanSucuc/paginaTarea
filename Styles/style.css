@@ -1,8 +1,3 @@
-/* estilos Generales */
-.container{
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
 
 
 /* Estilos de la barra de navegacion */
@@ -32,4 +27,19 @@
 
 
 /* fin de estilos de area del texto */
+
+/* Estilos del footer */
+
+footer{
+    margin-top: 7%;
+
+}
+
+#Usuario{
+    border-radius: 20px;
+    color: $purple; 
+}
+
+#Links{
+    border-radius: 20px;
 
