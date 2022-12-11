@@ -13,6 +13,11 @@
   <!-- link CDN de bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   <!-- Fin link CDN de bootstrap -->
+  <!-- Fuentes De google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+  <!-- Fin de fuentes de Google -->
 </head>
 
 <body>
@@ -20,7 +25,7 @@
   <!-- Inicio de navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-lg-top sticky-md-top sticky-sm-top" id="Navbar">
     <div class="container-fluid ">
-      <a class="navbar-brand" href="#Inico">Inicio</a>
+      <a class="navbar-brand" href="https://github.com/JuanSucuc">Mi github </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,14 +33,18 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link" href="#Nazaret">Nazaret</a>
+            <a class="nav-link" href="#Inicio">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Letras">Letras</a>
+            <a class="nav-link" href="#Nazaret">Nazaret</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#Integrantes">Integrantes</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#AcercaDe">Acerca de</a>
+          </li>
+          
         </ul>
       </div>
     </div>
@@ -44,7 +53,7 @@
   <!-- Fin de navbar -->
 
   <!-- Inico de Carrusel -->
-  <header id="Inico" class="container">
+  <header id="Inicio" class="container">
 
     <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -53,12 +62,12 @@
             class="d-block w-100" alt="foto de la banda Nazaret">
         </div>
         <div class="carousel-item text-center"">
-          <img class="img-fluid rounded mx-auto d-block""  src="https://media.s-bol.com/xkkp8lvJ6Y1E/550x541.jpg"
+          <img class="img-fluid rounded mx-auto d-block""  src="https://lastfm.freetls.fastly.net/i/u/500x500/cade81ae2933c718fcbd227cd361dd63.jpg"
             class="d-block w-100" alt="Foto del guitarrista Eric Claptom">
         </div>
         <div class="carousel-item text-center"">
           <img class="img-fluid rounded mx-auto d-block"" 
-            src="https://e.snmc.io/i/1200/s/615c8b8285537d678e7144ab5d55e213/2983497"
+            src="https://m.media-amazon.com/images/I/61yz5l6Ox4L._SY580_.jpg"
             class="d-block w-100" alt="Foto de la banda Pink Floyd">
         </div>
       </div>
@@ -79,9 +88,9 @@
 
 
   <!-- Iniacio de Acordion-->
-  <main class="container">
+  <main class="container" id="Nazaret">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-8" id="Nazaret">
+      <div class="col-12 col-md-6 col-lg-8" >
           <!-- Titulo  -->
 
   <h1 class="text-center">Nazaret - Love Hurts</h1>
@@ -100,7 +109,7 @@
       </div>
   
       <aside class="col-12 col-md-6 col-lg-4" id="Letras">
-        <h1>Letras</h1>
+        <h2>Letras</h2>
       
         <div class="accordion text-center" id="accordionExample">
           <div class="accordion-item">
@@ -110,7 +119,7 @@
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
+              <div class="accordion-body"><p>
                 Love hurts, love scars<br>
                 Love wounds and marks<br>
                 Any heart<br>
@@ -150,7 +159,7 @@
                 Love hurts<br>
                 Ooh, ooh, love hurts<br>
                 Ooh, ooh, love hurts<br>
-                Ooh, ooh...<br>
+                Ooh, ooh...<br></p>
       
               </div>
             </div>
@@ -162,7 +171,7 @@
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
+              <div class="accordion-body"><p>
                 El amor duele, el amor cicatriza<br>
                 Heridas y marcas de amor<br>
                 Cualquier corazón<br>
@@ -202,7 +211,7 @@
                 El amor duele<br>
                 Ooh, ooh, el amor duele<br>
                 Ooh, ooh, el amor duele<br>
-                Ooh ooh...<br>
+                Ooh ooh...<br></p>
               </div>
             </div>
           </div>
@@ -308,9 +317,9 @@
   <!-- fin de tabla -->
 
 
-    <footer class=" text-white text-center">
+    <footer class=" text-white text-center" id="AcercaDe">
       <div class="text-bg-info p-3"" id="Links">
-            <h5>Fuentes</h5>
+            <h3 class="text-white">Fuentes</h3>
   
             <ul class="list-unstyled">
               <li>
@@ -321,6 +330,9 @@
               </li>
               <li>
                 <a href="https://www.letras.com/nazareth/27776/traduccion.html" class="text-white">www.letras.com</a>
+              </li>
+              <li>
+                <a href="#" class="text-white">Repositorio en  github</a>
               </li>
             </ul>
       </div>
